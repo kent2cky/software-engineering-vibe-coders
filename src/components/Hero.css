@@ -1,8 +1,14 @@
 .hero {
-  background: linear-gradient(135deg, var(--purple) 0%, var(--purple-dark) 100%);
+  background-image:
+    linear-gradient(135deg, rgba(124, 58, 237, 0.85), rgba(109, 40, 217, 0.85)),
+    url('/images/dev-at-laptop.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: var(--white);
   padding: 60px 20px;
   text-align: center;
+  position: relative;
 }
 
 .hero h1 {
@@ -10,12 +16,23 @@
   font-weight: 800;
   margin-bottom: 15px;
   line-height: 1.2;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
   font-size: 1.3rem;
   margin-bottom: 30px;
   opacity: 0.95;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero .btn {
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
