@@ -1,0 +1,35 @@
+.curriculum {
+  padding: 60px 20px;
+}
+
+.curriculum-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.curriculum-item {
+  background: var(--white);
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 4px solid var(--purple);
+}
+
+.curriculum-item h4 {
+  font-size: 1.2rem;
+  color: var(--purple);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.curriculum-item p {
+  color: var(--text-grey);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.curriculum-cta {
+  text-align: center;
+  margin-top: 40px;
+}

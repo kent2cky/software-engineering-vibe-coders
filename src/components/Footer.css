@@ -1,0 +1,15 @@
+footer {
+  background: var(--purple);
+  color: var(--white);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+footer .btn {
+  display: inline-block;
+}

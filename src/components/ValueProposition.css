@@ -1,0 +1,43 @@
+.value-prop {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.value-prop h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: var(--purple);
+  line-height: 1.3;
+}
+
+.value-prop p {
+  font-size: 1.1rem;
+  color: var(--text-grey);
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.event-details {
+  background: var(--white);
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 30px;
+  border: 2px solid var(--border);
+}
+
+.event-details p {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: var(--text-dark);
+}
+
+.event-details strong {
+  color: var(--purple);
+}
+
+@media (max-width: 768px) {
+  .value-prop h2 {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,68 @@
+.pain-points {
+  background: var(--white);
+  padding: 60px 20px;
+  margin: 40px 0;
+  border-radius: 16px;
+}
+
+.pain-points h3 {
+  font-size: 1.5rem;
+  color: var(--purple);
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pain-points ul {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.pain-points li {
+  padding: 12px 0;
+  color: var(--text-grey);
+  font-size: 1rem;
+  padding-left: 30px;
+  position: relative;
+}
+
+.pain-points li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.disclaimer {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(124, 58, 237, 0.05));
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid var(--purple);
+}
+
+.disclaimer h4 {
+  color: var(--purple);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.disclaimer ul {
+  list-style: none;
+}
+
+.disclaimer li {
+  padding: 8px 0;
+  color: var(--text-grey);
+  font-size: 0.95rem;
+  padding-left: 25px;
+  position: relative;
+}
+
+.disclaimer li:before {
+  content: "✗";
+  position: absolute;
+  left: 0;
+  color: #EF4444;
+  font-weight: 700;
+}
