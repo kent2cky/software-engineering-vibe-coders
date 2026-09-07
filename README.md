@@ -1,6 +1,25 @@
-# Smartcore Cloud Landing Page - React Project
+# Software Engineering for Vibe Coders - Course Landing Page
 
-A modern React landing page for Smartcore Cloud Solutions, converted from static HTML using Vite.
+A modern React landing page for a course teaching engineering fundamentals to builders who create with AI. For non-technical founders, freelancers, and indie hackers building products with tools like Claude, ChatGPT, and other AI assistants.
+
+## Course Overview
+
+**Stop Re-Prompting. Understand Your Code.**
+
+This 10-week course teaches the engineering fundamentals that AI won't teach you. Learn to read code, debug problems, evaluate quality, and improve what you build. Designed specifically for people building real products with AI.
+
+### The 10 Core Skills
+
+1. Reading Code
+2. Debugging Fundamentals
+3. Problem Decomposition
+4. Version Control (Git)
+5. Data Structures & Algorithms Basics
+6. Testing
+7. Understanding the Full Stack
+8. System Design Basics
+9. Security Basics
+10. Code Review & Documentation
 
 ## Project Structure
 
@@ -69,16 +88,16 @@ Preview the production build locally before deployment
 
 ## Component Overview
 
-- **Hero** - Main hero section with CTA
-- **ValueProposition** - Value prop and event details
-- **Motivation** - Why AWS learning is important
-- **Curriculum** - 12-week learning path (9 modules)
-- **Audience** - Target audience cards (Developers, Engineers, Entrepreneurs, Students)
-- **PainPoints** - Common challenges and disclaimers
-- **Instructor** - Instructor bio and expertise
-- **Testimonials** - Success stories
-- **FAQ** - Frequently asked questions
-- **Footer** - Footer with CTA
+- **Hero** - "Stop Re-Prompting" message
+- **ValueProposition** - Why builders using AI need these fundamentals
+- **Motivation** - The problem with building without engineering knowledge
+- **Curriculum** - The 10 core skills taught over 10 weeks
+- **Audience** - Four primary personas (Founders, Freelancers, Career Switchers, Indie Hackers)
+- **PainPoints** - Real struggles of AI-powered builders
+- **Instructor** - Mentor who works with AI-first builders
+- **Testimonials** - Success stories from non-traditional builders
+- **FAQ** - Questions from the AI-builder community
+- **Footer** - Call-to-action
 
 ## Styling
 
@@ -101,5 +120,5 @@ The build output is in the `dist/` folder, ready for deployment to any static ho
 ## Notes
 
 - Images are stored in `public/images/` and referenced as `/images/filename`
-- The old HTML file (`smartcore-cloud-landing.html`) is kept in git but excluded from the build via `.gitignore`
 - All components are separated into individual JSX files with matching CSS files for better maintainability
+- Designed and copywritten for builders using AI as their primary development tool

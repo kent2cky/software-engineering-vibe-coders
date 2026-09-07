@@ -4,9 +4,9 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <h1>Master AWS Cloud Computing 2026</h1>
-        <p>12-Week Intensive Program • Learn from Industry Experts • Build Real Production Systems</p>
-        <button className="btn">SECURE YOUR SEAT HERE</button>
+        <h1>Stop Re-Prompting. Understand Your Code</h1>
+        <p>10-Week Program • Master the Fundamentals AI Won't Teach You • Build with Confidence</p>
+        <button className="btn">START LEARNING</button>
       </div>
     </section>
   )

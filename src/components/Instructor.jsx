@@ -1,13 +1,13 @@
 import './Instructor.css'
 
 const expertise = [
-  "AWS Architecture & Design Patterns",
-  "Infrastructure as Code (CloudFormation, Terraform)",
-  "DevOps & CI/CD Pipelines",
-  "Cloud Security & Compliance",
-  "Cost Optimization Strategies",
-  "Multi-region & Disaster Recovery",
-  "Mentoring 500+ Cloud Professionals"
+  "Mentoring non-technical founders building with AI",
+  "Code review and quality assessment",
+  "Debugging and problem-solving strategies",
+  "Security in AI-generated code",
+  "Full-stack fundamentals",
+  "Making engineering accessible (not gatekept)",
+  "Mentoring 100+ AI-first builders"
 ]
 
 export default function Instructor() {
@@ -20,10 +20,10 @@ export default function Instructor() {
             [INSTRUCTOR PHOTO PLACEHOLDER]
           </div>
           <div className="instructor-bio">
-            <h3>Smartcore Cloud Mentor</h3>
-            <p className="title">Cloud Infrastructure Expert</p>
-            <p>Our lead instructor brings years of cloud infrastructure experience, having architected and deployed enterprise-grade AWS solutions for companies and individuals across healthcare, fintech, e-commerce, and SaaS industries.</p>
-            <p>With a proven track record of building scalable, secure, and cost-optimized cloud systems, they're passionate about demystifying cloud computing and helping ambitious professionals master AWS from first principles.</p>
+            <h3>Engineer & AI-Builder Mentor</h3>
+            <p className="title">Expert in Teaching Engineering Without Gatekeeping</p>
+            <p>Our instructor has spent years working with builders—founders, freelancers, and indie hackers—who are shipping products with AI but hit walls because they lack engineering fundamentals. They've seen the struggles firsthand and built this course to solve them.</p>
+            <p>They believe being a non-technical founder building with AI doesn't make you less of an engineer—it makes you a modern engineer. Their mission is to teach the skills you actually need to succeed, in language that makes sense, without the gatekeeping or jargon.</p>
             <div className="expertise-list">
               <h4>EXPERTISE AREAS:</h4>
               <ul>
