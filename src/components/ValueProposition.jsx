@@ -1,18 +1,39 @@
-import './ValueProposition.css'
+import './ValueProposition.css';
 
 export default function ValueProposition() {
   return (
     <section className="value-prop">
       <div className="container">
-        <h2>You're Building Real Products With AI. Now Learn the Skills That Make You a Real Engineer.</h2>
-        <p>AI is an incredible tool, but it won't teach you how to read code, debug problems, or evaluate what it generates. This course fills that gap. Learn the 11 fundamental skills that transform you from someone who prompts into someone who engineers.</p>
+        <h2>
+          AI helps you build quickly. Engineering skills help you keep building.
+        </h2>
+        <p>
+          Without the fundamentals, every bug becomes another prompt and every
+          change carries risk. This program teaches you to read, debug, test,
+          and secure the code you ship, so you stay in control of your product.
+        </p>
         <div className="event-details">
-          <p><strong>Program Duration:</strong> 10 Weeks (Self-Paced with Weekly Live Sessions)</p>
-          <p><strong>Start Date:</strong> November 1, 2026</p>
-          <p><strong>Delivery Platform:</strong> Online (Video Lessons + Hands-On Labs + Real Code)</p>
-          <p><strong>Certificate:</strong> Certificate of Completion + Verifiable Portfolio</p>
+          <p>
+            <strong>Duration:</strong> 12 weeks, self-paced with weekly live
+            sessions
+          </p>
+          <p>
+            <strong>Start date:</strong> November 2, 2026
+          </p>
+          <p>
+            <strong>Format:</strong> Online video lessons, hands-on labs, and
+            real code
+          </p>
+          <p>
+            <strong>Credential:</strong> Certificate of completion and a
+            portfolio project
+          </p>
+          <p className="pricing-highlight">
+            <strong>Investment:</strong> ₦50,000 (Flexible Payment: 2
+            Installments of ₦25,000)
+          </p>
         </div>
       </div>
     </section>
-  )
+  );
 }

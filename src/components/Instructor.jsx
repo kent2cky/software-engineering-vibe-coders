@@ -1,14 +1,12 @@
-import './Instructor.css'
+import './Instructor.css';
 
 const expertise = [
-  "Mentoring non-technical founders building with AI",
-  "Code review and quality assessment",
-  "Debugging and problem-solving strategies",
-  "Security in AI-generated code",
-  "Full-stack fundamentals",
-  "Making engineering accessible (not gatekept)",
-  "Mentoring 100+ AI-first builders"
-]
+  'Mentoring founders who build with AI',
+  'Code review and quality assessment',
+  'Debugging and problem solving',
+  'Security in AI-generated code',
+  'Full-stack fundamentals',
+];
 
 export default function Instructor() {
   return (
@@ -16,25 +14,50 @@ export default function Instructor() {
       <div className="container">
         <h2 className="section-title">MEET YOUR INSTRUCTOR</h2>
         <div className="instructor-content">
-          <div className="instructor-photo">
-            [INSTRUCTOR PHOTO PLACEHOLDER]
-          </div>
+          <img
+            src="/images/instructor.jpg"
+            alt="Your instructor"
+            className="instructor-photo"
+          />
           <div className="instructor-bio">
-            <h3>Engineer & AI-Builder Mentor</h3>
-            <p className="title">Expert in Teaching Engineering Without Gatekeeping</p>
-            <p>Our instructor has spent years working with builders—founders, freelancers, and indie hackers—who are shipping products with AI but hit walls because they lack engineering fundamentals. They've seen the struggles firsthand and built this course to solve them.</p>
-            <p>They believe being a non-technical founder building with AI doesn't make you less of an engineer—it makes you a modern engineer. Their mission is to teach the skills you actually need to succeed, in language that makes sense, without the gatekeeping or jargon.</p>
+            <h3>
+              Kennis Maduka - Software Engineer & AI Automation Specialist
+            </h3>
+            <p>
+              Our instructor has spent years helping founders, freelancers, and
+              indie hackers who ship with AI but get stuck on engineering
+              fundamentals. They built this program to teach those skills in
+              plain language.
+            </p>
             <div className="expertise-list">
-              <h4>EXPERTISE AREAS:</h4>
+              <h4>AREAS OF EXPERTISE:</h4>
               <ul>
                 {expertise.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}
               </ul>
             </div>
+            <div className="social-links">
+              <a
+                href="https://x.com/k3nmaddy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+              >
+                <span className="social-icon">𝕏</span> Twitter
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kennis-maduka/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link"
+              >
+                <span className="social-icon">in</span> LinkedIn
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
