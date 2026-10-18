@@ -1,4 +1,5 @@
 import './Hero.css';
+import { trackLead } from '../utils/pixel';
 
 export default function Hero() {
   return (
@@ -19,6 +20,7 @@ export default function Hero() {
           href="https://chat.whatsapp.com/L6Ntto3LKv2AZquxjSIUvn"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackLead('hero')}
           className="btn"
         >
           SECURE YOUR SEAT HERE

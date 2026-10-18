@@ -1,4 +1,5 @@
 import './Curriculum.css'
+import { trackLead } from '../utils/pixel';
 
 const curriculumItems = [
   {
@@ -67,7 +68,7 @@ export default function Curriculum() {
           ))}
         </div>
         <div className="curriculum-cta">
-          <a href="https://chat.whatsapp.com/L6Ntto3LKv2AZquxjSIUvn" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">SECURE YOUR SEAT HERE</a>
+          <a href="https://chat.whatsapp.com/L6Ntto3LKv2AZquxjSIUvn" target="_blank" rel="noopener noreferrer" onClick={() => trackLead('curriculum')} className="btn btn-secondary">SECURE YOUR SEAT HERE</a>
         </div>
       </div>
     </section>

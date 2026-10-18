@@ -1,4 +1,5 @@
 import './Testimonials.css';
+import { trackLead } from '../utils/pixel';
 
 const testimonials = [
   {
@@ -36,7 +37,7 @@ export default function Testimonials() {
           ))}
         </div>
         <div className="testimonials-cta">
-          <a href="https://chat.whatsapp.com/L6Ntto3LKv2AZquxjSIUvn" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">SECURE YOUR SEAT HERE</a>
+          <a href="https://chat.whatsapp.com/L6Ntto3LKv2AZquxjSIUvn" target="_blank" rel="noopener noreferrer" onClick={() => trackLead('testimonials')} className="btn btn-secondary">SECURE YOUR SEAT HERE</a>
         </div>
       </div>
     </section>
