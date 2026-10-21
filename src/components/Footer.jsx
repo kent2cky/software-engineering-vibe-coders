@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer>
       <div className="container">
-        <p>&copy; 2026 Vibe Coders. All rights reserved.</p>
-        <a href="https://chat.whatsapp.com/L6Ntto3LKv2AZquxjSIUvn" target="_blank" rel="noopener noreferrer" onClick={() => trackLead('footer')} className="btn">SECURE YOUR SEAT HERE</a>
+        <p>&copy; 2026 Smartcore Infosys Ltd. All rights reserved.</p>
+        <a href="https://smartcore.vmerlabs.com" target="_blank" rel="noopener noreferrer" onClick={() => trackLead('footer')} className="btn">REGISTER NOW</a>
       </div>
     </footer>
   );

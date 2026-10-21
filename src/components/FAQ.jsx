@@ -23,11 +23,11 @@ const faqs = [
   },
   {
     question: "How much time per week do I need?",
-    answer: "Plan on 5 to 7 hours a week for lessons, labs, and practice. The program is self-paced, and the weekly live session (1 to 2 hours) is optional but recommended."
+    answer: "Plan on 5 to 7 hours a week for lessons, labs, and practice. It is a 12-week intensive program delivered online through video lessons and interactive labs."
   },
   {
     question: "What do I get at the end?",
-    answer: "A certificate of completion, a portfolio project to show employers or clients, and access to our community of builders."
+    answer: "You become Expert Ready and receive a Smartcore Certificate of Completion, plus real production systems you have built to show employers or clients."
   }
 ]
 

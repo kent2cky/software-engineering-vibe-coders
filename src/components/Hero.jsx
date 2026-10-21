@@ -5,10 +5,11 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="container">
-        <h1>You Can Build With AI. Now Understand the Code.</h1>
+        <p className="hero-brand">Smartcore Infosys Ltd</p>
+        <h1>Master A.I. Software Engineering in 12 Weeks</h1>
         <p>
-          A 12-week program that teaches the engineering fundamentals behind the
-          code AI writes for you.
+          A 12-week intensive program starting November 2, 2026. Master
+          software engineering with AI and build real production systems.
         </p>
         <div className="hero-pricing">
           <p className="price">Investment: ₦50,000</p>
@@ -17,13 +18,13 @@ export default function Hero() {
           </p>
         </div>
         <a
-          href="https://chat.whatsapp.com/L6Ntto3LKv2AZquxjSIUvn"
+          href="https://smartcore.vmerlabs.com"
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => trackLead('hero')}
           className="btn"
         >
-          SECURE YOUR SEAT HERE
+          REGISTER NOW
         </a>
       </div>
     </section>

@@ -78,3 +78,11 @@
     font-size: 0.9rem;
   }
 }
+
+.hero .hero-brand {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}

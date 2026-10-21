@@ -37,7 +37,7 @@ export default function Testimonials() {
           ))}
         </div>
         <div className="testimonials-cta">
-          <a href="https://chat.whatsapp.com/L6Ntto3LKv2AZquxjSIUvn" target="_blank" rel="noopener noreferrer" onClick={() => trackLead('testimonials')} className="btn btn-secondary">SECURE YOUR SEAT HERE</a>
+          <a href="https://smartcore.vmerlabs.com" target="_blank" rel="noopener noreferrer" onClick={() => trackLead('testimonials')} className="btn btn-secondary">REGISTER NOW</a>
         </div>
       </div>
     </section>

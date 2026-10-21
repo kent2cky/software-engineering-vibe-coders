@@ -6,7 +6,7 @@ A modern React landing page for a course teaching engineering fundamentals to bu
 
 **Stop Re-Prompting. Understand Your Code.**
 
-This 10-week course teaches the engineering fundamentals that AI won't teach you. Learn to read code, debug problems, evaluate quality, and improve what you build. Designed specifically for people building real products with AI.
+This 12-week intensive program teaches the engineering fundamentals that AI won't teach you. Learn to read code, debug problems, evaluate quality, and improve what you build. Designed specifically for people building real products with AI.
 
 ### The 10 Core Skills
 
@@ -91,7 +91,7 @@ Preview the production build locally before deployment
 - **Hero** - "Stop Re-Prompting" message
 - **ValueProposition** - Why builders using AI need these fundamentals
 - **Motivation** - The problem with building without engineering knowledge
-- **Curriculum** - The 10 core skills taught over 10 weeks
+- **Curriculum** - The 10 core skills taught over 12 weeks
 - **Audience** - Four primary personas (Founders, Freelancers, Career Switchers, Indie Hackers)
 - **PainPoints** - Real struggles of AI-powered builders
 - **Instructor** - Mentor who works with AI-first builders

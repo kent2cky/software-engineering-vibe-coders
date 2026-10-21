@@ -15,9 +15,9 @@ export default function MoneyBackGuarantee() {
           <div className="guarantee-items">
             <div className="guarantee-item">
               <div className="item-icon">✓</div>
-              <h3>30-Day Full Refund</h3>
+              <h3>2-Week Full Refund</h3>
               <p>
-                Not satisfied? Get a complete refund within 30 days of purchase,
+                Not satisfied? Get a complete refund within 2 weeks of purchase,
                 no questions asked, no hassle.
               </p>
             </div>
